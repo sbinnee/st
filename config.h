@@ -9,8 +9,12 @@ static char *font = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Joy Pixels:pixelsize=16:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=16:antialias=true:autohint=true"
-	/*"Noto Color Emoji:pixelsize=16:antialias=true:autohint=true",*/
+	"Symbols Nerd Font:pixelsize=16:antialias=true:autohint=true",
+	"Noto Sans Mono CJK KR:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans Mono CJK JP:pixelsize=14:antialias=true:autohint=true"
+	/* "Noto Sans Mono CJK SC:pixelsize=14:antialias=true:autohint=true", */
+	/* "Noto Sans Mono CJK TC:pixelsize=14:antialias=true:autohint=true", */
+	/* "Noto Color Emoji:pixelsize=16:antialias=true:autohint=true", */
 };
 
 static int borderpx = 2;
