@@ -5,17 +5,17 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"DejaVu Sans Mono:pixelsize=16:antialias=true:autohint=true",
-	"Joy Pixels:pixelsize=16:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=16:antialias=true:autohint=true",
-	"NanumGothic:pixelsize=16:antialias=true:autohint=true",
-	/* "Noto Sans Mono CJK JP:pixelsize=14:antialias=true:autohint=true", */
-	/* "Noto Sans Mono CJK SC:pixelsize=14:antialias=true:autohint=true" */
-	/* "Noto Sans Mono CJK TC:pixelsize=14:antialias=true:autohint=true", */
-	/* "Noto Sans Mono CJK KR:pixelsize=14:antialias=true:autohint=true", */
+	"Joy Pixels:pixelsize=15:antialias=true:autohint=true",
+	"Symbols Nerd Font:pixelsize=15:antialias=true:autohint=true",
+	"NanumGothic:pixelsize=15:antialias=true:autohint=true",
+	"Noto Sans Mono CJK JP:pixelsize=15:antialias=true:autohint=true",
+	"Noto Sans Mono CJK SC:pixelsize=15:antialias=true:autohint=true"
+	/* "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true", */
+	/* "Noto Sans Mono CJK TC:pixelsize=15:antialias=true:autohint=true", */
+	/* "Noto Sans Mono CJK KR:pixelsize=15:antialias=true:autohint=true", */
 	/* "Noto Color Emoji:pixelsize=16:antialias=true:autohint=true", */
 };
 
@@ -103,7 +103,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.87;
+float alpha = 0.91;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -133,8 +133,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#282828",   /* 256 -> bg */
 	"#ffffff",   /* 257 -> fg */
-	"#fbf1c7",   /* yellowish *1/ */
-	//"#add8e6", /* 258 -> cursor (bluish)*/ 
+	"#fbf1c7",   /* yellowish */
+	// "#add8e6", /* 258 -> cursor (bluish)*/ 
 };
 
 
