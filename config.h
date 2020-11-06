@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=15:antialias=true:autohint=true";
+/* static char *font = "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true"; */
 /* Spare fonts */
 static char *font2[] = {
 	"Joy Pixels:pixelsize=15:antialias=true:autohint=true",
@@ -134,7 +135,33 @@ static const char *colorname[] = {
 	"#282828",   /* 256 -> bg */
 	"#ffffff",   /* 257 -> fg */
 	"#fbf1c7",   /* yellowish */
-	// "#add8e6", /* 258 -> cursor (bluish)*/ 
+	// "#add8e6", /* 258 -> cursor (bluish)*/
+
+	/* // seoul256 */
+	/* "#4e4e4e", */
+	/* "#d68787", */
+	/* "#5f865f", */
+	/* "#d8af5f", */
+	/* "#85add4", */
+	/* "#d7afaf", */
+	/* "#87afaf", */
+	/* "#d0d0d0", */
+	/* "#626262", */
+
+	/* "#d75f87", */
+	/* "#87af87", */
+	/* "#ffd787", */
+	/* "#add4fb", */
+	/* "#ffafaf", */
+	/* "#87d7d7", */
+	/* "#e4e4e4", */
+
+	/* "#d0d0d0", /1* cursorColor *1/ */
+	/* "#3a3a3a", /1* cursorColor2 *1/ */
+	/* "#e4e4e4", /1* colorBD *1/ */
+
+	/* "#3a3a3a", /1* bg *1/ */
+	/* "#d0d0d0", /1* fg *1/ */
 };
 
 
