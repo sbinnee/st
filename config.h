@@ -9,8 +9,10 @@ static char *font = "JetBrains Mono NL:pixelsize=15:antialias=true:autohint=true
 /* static char *font = "DejaVu Sans Mono:pixelsize=15:antialias=true:autohint=true"; */
 /* Spare fonts */
 static char *font2[] = {
-	"Joy Pixels:pixelsize=15:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=15:antialias=true:autohint=true",
+	"Jetbrains Mono NL:pixelsize=15:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=15:antialias=true:autohint=true",
+	/* "Symbols Nerd Font:pixelsize=15:antialias=true:autohint=true", */
 	"NanumGothic:pixelsize=15:antialias=true:autohint=true",
 	"Noto Sans Mono CJK JP:pixelsize=15:antialias=true:autohint=true",
 	"Noto Sans Mono CJK SC:pixelsize=15:antialias=true:autohint=true"
@@ -108,33 +110,58 @@ float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	// Gruv box
+	// Dracula
+	"#000000",  // 0
+	"#FF5555",  // 1
+	"#50FA7B",  // 2
+	"#F1FA8C",  // 3
+	"#BD93F9",  // 4
+	"#FF79C6",  // 5
+	"#8BE9FD",  // 6
+	"#BFBFBF",  // 7
+	"#4D4D4D",  // 8
+	"#FF6E67",  // 9
+	"#5AF78E",  // 10
+	"#F4F99D",  // 11
+	"#CAA9FA",  // 12
+	"#FF92D0",  // 13
+	"#9AEDFE",  // 14
+	"#E6E6E6",  // 15
+	"#F8F8F2",  // 16
+	"#282A36",  // 17
+	[255] = 0,
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#282A36",   /* 256 -> bg */
+	"#F8F8F2",   /* 257 -> fg */
+	"#fbf1c7",   /* yellowish */
+
+	/* // Gruv box*/
 	/* 8 normal colors */
-	"#1d2021",
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
+	/* "#1d2021",  // 0*/
+	/* "#cc241d",  // 1*/
+	/* "#98971a",  // 2*/
+	/* "#d79921",  // 3*/
+	/* "#458588",  // 4*/
+	/* "#b16286",  // 5*/
+	/* "#689d6a",  // 6*/
+	/* "#a89984",  // 7*/
 
 	/* 8 bright colors */
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	/* "#928374",  // 8*/
+	/* "#fb4934",  // 9*/
+	/* "#b8bb26",  // 10*/
+	/* "#fabd2f",  // 11*/
+	/* "#83a598",  // 12*/
+	/* "#d3869b",  // 13*/
+	/* "#8ec07c",  // 14*/
+	/* "#ebdbb2",  // 15*/
 
-	[255] = 0,
+	/* [255] = 0,*/
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#282828",   /* 256 -> bg */
-	"#ffffff",   /* 257 -> fg */
-	"#fbf1c7",   /* yellowish */
+	// "#282828",   /* 256 -> bg */
+	// "#ffffff",   /* 257 -> fg */
+	// "#fbf1c7",   /* yellowish */
 	// "#add8e6", /* 258 -> cursor (bluish)*/
 
 	/* // seoul256 */
